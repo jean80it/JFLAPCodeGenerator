@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<inputmap maxinput="128">
+  <set name="lowercase" values="a b c d e f g h i j k l m n o p q r s t u v w x y z" />
+  <set name="uppercase" values="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" />
+  <set name="letter">
+    <addset>lowercase</addset>
+    <addset>uppercase</addset>
+  </set>
+  <set name="digit" values="0 1 2 3 4 5 6 7 8 9"/>
+  <set name="word" values="\_">
+    <addset>letter</addset>
+    <addset>digit</addset>
+  </set>
+  <set name="whiteSpace" values="#11 #32"/>
+  <set name="space" values="#32"/>
+  <set name="slash" values="\\"/>
+  <set name="return" values="#13 #10"/>
+  <set name="any">
+    <addset>letter</addset>
+    <addset>digit</addset>
+    <addset>whiteSpace</addset>
+    <addset>return</addset>
+  </set>
+  <set name="notReturn">
+    <addset>any</addset>
+    <remset>return</remset>
+  </set>
+  <set name="v" values="v"/>
+  <set name="p" values="p"/>
+  <set name="n" values="n"/>
+  <set name="t" values="t"/>
+  <set name="f" values="f"/>
+  <set name="#" values="\#"/>
+  <set name="=" values="\="/>
+  <set name="[" values="\["/>
+  <set name="]" values="\]"/>
+  <set name="\" values="\\"/>
+  <set name="semicolon" values="\;"/>
+  <set name="colon" values="\:"/>
+
+  <set name="dot" values="\."/>
+  <set name="-" values="\-"/>
+  <set name="@" values="\@"/>
+  
+  <set name="floatStuff">
+    <addset>digit</addset>
+    <addset>dot</addset>
+    <addset>-</addset>
+  </set>
+  
+  <set name="valuesInput">
+    <addset>letter</addset>
+    <addset>digit</addset>
+    <remset>return</remset>
+  </set>
+
+
+</inputmap>
+  

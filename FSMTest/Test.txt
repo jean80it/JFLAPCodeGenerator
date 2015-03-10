@@ -1,0 +1,13 @@
+# comment bla bla
+uno =        1 pippo
+   due=2  paperino                             
+tre=    3   cacca           \
+
+
+# comment bla bla
+
+[  sezione   ]
+quattro_quattro                     =4                 \
+pippo\
+paperino
+cinque errore = -1
