@@ -1,0 +1,17 @@
+ASMParserTest/Debug/
+Debug/
+FSMTest/Debug/
+FSMTest/FSMTest.vcxproj.user
+JFLAPCodeGenerator.opensdf
+JFLAPCodeGenerator.sdf
+JFLAPCodeGenerator.v12.suo
+JFLAPCodeGenerator/JFLAPCodeGenerator.csproj.user
+JFLAPCodeGenerator/bin/Debug/InputMap.xml
+JFLAPCodeGenerator/bin/Debug/JFLAPCodeGenerator.exe.config
+JFLAPCodeGenerator/bin/Debug/JFLAPCodeGenerator.pdb
+JFLAPCodeGenerator/bin/Debug/JFLAPCodeGenerator.vshost.exe
+JFLAPCodeGenerator/bin/Debug/JFLAPCodeGenerator.vshost.exe.config
+JFLAPCodeGenerator/bin/Debug/JFLAPCodeGenerator.vshost.exe.manifest
+JFLAPCodeGenerator/bin/Debug/OBJParser.cpp
+JFLAPCodeGenerator/bin/Debug/OBJParser.hpp
+JFLAPCodeGenerator/obj/

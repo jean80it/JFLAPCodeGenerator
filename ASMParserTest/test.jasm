@@ -1,0 +1,11 @@
+; test assembly outputting a number of dots
+INIT 0 40	; other comment
+LOADI A 3	; put a 3 into register named A
+LOADI B 1	; put a 1 into register named B
+LOADI Z 0	; put a 1 into register named B
+:loop		; start of cycle
+DBG 0 '.'	; output a dot
+SUB A B		; (could create a sub immediate or a dec)
+CMP A Z     
+JA loop		; while A > 0
+TRM			; terminate

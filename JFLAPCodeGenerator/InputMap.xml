@@ -7,11 +7,15 @@
     <addset>uppercase</addset>
   </set>
   <set name="digit" values="0 1 2 3 4 5 6 7 8 9"/>
+  <set name="punctuation" values=". , : ; ! ?"/>
   <set name="word" values="\_">
     <addset>letter</addset>
     <addset>digit</addset>
   </set>
-  <set name="whiteSpace" values="#11 #32"/>
+  
+  <set name="commonSymbol" values="\# ( ) + - * ^ / $ %  = #38 #60 #62"/>
+  
+  <set name="whiteSpace" values="#9 #32"/>
   <set name="space" values="#32"/>
   <set name="slash" values="\\"/>
   <set name="return" values="#13 #10"/>
@@ -20,6 +24,8 @@
     <addset>digit</addset>
     <addset>whiteSpace</addset>
     <addset>return</addset>
+    <addset>punctuation</addset>
+    <addset>commonSymbol</addset>
   </set>
   <set name="notReturn">
     <addset>any</addset>
@@ -54,6 +60,7 @@
     <remset>return</remset>
   </set>
 
+  <set name="apos" values="\'"/>
 
 </inputmap>
   
